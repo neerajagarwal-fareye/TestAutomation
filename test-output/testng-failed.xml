@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Single]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="SingleTest(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="eat.tests.TestTO">
+        <methods>
+          <include name="tearUp"/>
+          <include name="tearDown"/>
+          <include name="verifyIfRequestPageIsLoading"/>
+        </methods>
+      </class> <!-- eat.tests.TestTO -->
+    </classes>
+  </test> <!-- SingleTest(failed) -->
+</suite> <!-- Failed suite [Single] -->
